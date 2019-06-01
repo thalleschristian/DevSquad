@@ -14,11 +14,11 @@
 	<link type="text/css" rel="stylesheet" href="css/custom.css"  media="screen,projection"/>
 	<!-- Import custom js-->	
 	<link rel="stylesheet" type="text/script" href="js/custom-js.js">
-	<!-- Import data aos -->
+
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-	<title>DeveloperSquad</title>
+	<title>Gangster_th</title>
 	<meta charset="utf-8">
 	<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />	
 	<meta name="description" content="Free Web tutorials">
@@ -29,7 +29,7 @@
 	<div class="navbar-fixed" id="home">
 		<nav class="black z-depth-3">
 			<div class="nav-wrapper container navbar-fixed">
-				<a  class="brand-logo red-text t-menu">Dev Squad</a>
+				<a  class="brand-logo red-text t-menu">DeveloperSquad</a>
 				<a href="#" data-activates="mobile-demo" class="button-collapse right waves-effect waves-light"><i class="material-icons pulse">menu</i></a>
 				<ul class="right hide-on-med-and-down ">
 					<li><a href="#quemsomos">Quem somos?</a></li>
@@ -214,7 +214,7 @@
 				</li>
 				<li class="timeline-inverted">
 					<div class="timeline-badge warning fire2"><i class=""></i></div>
-					<div class="timeline-panel" data-aos="zoom-in" data-aos="fade-up" data-aos-duration="2200">
+					<div class="timeline-panel" data-aos="zoom-in" data-aos-duration="2200">
 
 						<div class="timeline-heading">
 							<h5 class="light center">Grau de satisfação</h5>
@@ -322,22 +322,23 @@
 		
 		//scroll fire numeros
 		$(document).ready(function(){
+			
 			var options = [
 			{selector: '.fire,.fire1,.fire2,.fire3', offset: 200, callback: function() {
 				$('.Count').each(function () {
 					$(this).prop('Counter',0).animate({
-						Counter: $(this).text()
+						Counter: $(this).text()						
 					}, {
 						duration: 2000,
 						easing: 'swing',
 						step: function (now) {
 							$(this).text(Math.ceil(now));
 						}
-					});
-				});
-			} },
+					});					
+				});				
+			} },			
 			];
-			Materialize.scrollFire(options);	
+			Materialize.scrollFire(options);				
 		});
 	</script>
 
