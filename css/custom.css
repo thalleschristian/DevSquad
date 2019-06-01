@@ -2,6 +2,10 @@ html{
 	scroll-behavior: smooth;
 }
 
+@-ms-viewport{
+  width: device-width;
+}
+
 ::-webkit-scrollbar-track {
 	background-color: #707070;
 }
