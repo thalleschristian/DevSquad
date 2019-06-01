@@ -6,6 +6,12 @@ html{
   width: device-width;
 }
 
+@media (max-width: 767px) {
+	.btn-paralax{
+		max-height: 30px;
+	}
+}
+
 ::-webkit-scrollbar-track {
 	background-color: #707070;
 }
