@@ -247,7 +247,7 @@ hr {
     }
 }
 
-.card-container {
+.card2-container2 {
     cursor: pointer;
     height: 150px;
     perspective: 600;
@@ -255,7 +255,7 @@ hr {
     width: 150px;
 }
 
-.card {
+.card2 {
     height: 100%;
     position: absolute;
     transform-style: preserve-3d;
@@ -263,11 +263,11 @@ hr {
     width: 100%;
 }
 
-.card:hover {
+.card2:hover {
     transform: rotateY(180deg);
 }
 
-.card .back {
+.card2 .back {
     background: #eaeaed;
     color: #0087cc;
     line-height: 150px;
