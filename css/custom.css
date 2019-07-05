@@ -1,8 +1,3 @@
-body {
-    font: 600 14px/0px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
-    margin: 12px 0;
-}
-
 html {
     scroll-behavior: smooth;
 }
@@ -250,32 +245,4 @@ hr {
         left: -14px;
         right: auto;
     }
-}
-
-.card2-container2 {
-    cursor: pointer;
-    height: 150px;
-    perspective: 600;
-    position: relative;
-    width: 150px;
-}
-
-.card2 {
-    height: 100%;
-    position: absolute;
-    transform-style: preserve-3d;
-    transition: all 1s ease-in-out;
-    width: 100%;
-}
-
-.card2:hover {
-    transform: rotateY(180deg);
-}
-
-.card2 .back {
-    background: #eaeaed;
-    color: #0087cc;
-    line-height: 150px;
-    text-align: center;
-    transform: rotateY(180deg);
 }
