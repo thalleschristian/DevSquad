@@ -1,3 +1,8 @@
+body {
+    font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+    margin: 12px 0;
+}
+
 html {
     scroll-behavior: smooth;
 }
